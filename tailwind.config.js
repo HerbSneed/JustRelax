@@ -1,7 +1,4 @@
-import 'flowbite-react';
-import 'tailwindcss-gradients';
-
-
+import flowbitePlugin from 'flowbite/plugin';
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -16,8 +13,6 @@ export default {
       background: '#EEDFC8',
       primary: '#3A4B53',
       accent: '#EDCA95'
-
-
     },
     extend: {
       textShadow: {
@@ -26,9 +21,7 @@ export default {
     },
   },
   plugins: [
-    'daisyui',
-    'tailwindcss-gradients',
-    'flowbite-react'
+    flowbitePlugin,
   ]
 }
 

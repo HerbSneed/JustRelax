@@ -1,10 +1,11 @@
-import { useState, useEffect, useRef } from "react";
+import { useState,  } from "react";
 import { HashLink } from "react-router-hash-link";
 import { useNavigate } from "react-router-dom";
 
 const Header = () => {
   const [headerBg, setHeaderBg] = useState("transparent");
   const navigate = useNavigate();
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleNavigation = (path) => {
     navigate(path);
@@ -14,15 +15,13 @@ const Header = () => {
   return (
     <>
       <header
-        className={` fixed left-0 right-0 z-10 flex top-0 justify-between items-center ${
-          headerBg === "black" ? "bg-black " : " bg-transparent"
-        }`}
+        className="left-0 right-0 flex top-0 bg-background h-52 justify-between items-center"
       >
         <nav className="w-screen">
           <div className="flex flex-wrap items-center justify-between mx-auto">
             <HashLink to="/#home">
-              <h1 className="header text-white text-[35px] mt-1 md:text-[45px]  ml-5 lg:ml-10 drop-shadow-lg z-50 font-[blackword]">
-                Corbella's
+              <h1 className="header text-black text-[35px] mt-1 md:text-[45px]  ml-5 lg:ml-10 drop-shadow-lg z-50 font-[blackword]">
+                Just Relax
               </h1>
             </HashLink>
 

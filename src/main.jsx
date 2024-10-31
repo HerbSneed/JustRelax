@@ -1,4 +1,3 @@
-import React from 'react'
 import ReactDOM from 'react-dom/client'
 import {
   createBrowserRouter,
@@ -6,24 +5,23 @@ import {
   Route,
   RouterProvider,
 } from "react-router-dom";
+import './tailwind.css';
 
-import App from './App.jsx'
-import Landing from "./components/Landing.jsx";
+import App from './App';
+import Landing from "./pages/Landing";
 
-
-import './index.css'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<App />}>
+    <Route path="/">
       <Route index element={<Landing />} />
     </Route>
-
   )
 );
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-        <RouterProvider router={router} />
-  </React.StrictMode>
+  <RouterProvider router={router}>
+    <App />
+  </RouterProvider>
+
 );

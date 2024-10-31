@@ -1,7 +1,6 @@
 // import React from "react";
-import facebook from "../assets/facebook_icon.webp";
-import email from "../assets/email-icon.webp";
-import nelTv from "../assets/nelTv-logo.webp"
+import facebook from "../assets/icons/facebook_icon.webp";
+import email from "../assets/icons/email-icon.webp";
 
 function Footer() {
   return (
@@ -27,11 +26,6 @@ function Footer() {
       </div>
 
       <div className="w-full flex flex-row items-center -ml-4 -mt-5 sm:-mt-4 lg:-mt-6 xl:-mt-7 2xl:-mt-9 justify-center">
-        <img
-          className="w-[45px] sm:w-1/12 md:w-[45px] lg:w-[50px] xl:w-[60px] 2xl:w-[70px] ml-0 mt-3 sm:mt-2 md:mt-3 lg:mt-4 xl:mt-3"
-          src={nelTv}
-          alt="nelTv Logo"
-        />
         <p className="ml-1 mt-6 lg:mt-7 2xl:mt-9  text-base-content font-semibold 2xl:text-xl">
           ©™ A Peggy Joyce&apos;s Boy Production
         </p>

@@ -6,4 +6,4 @@ function Quote() {
     </>;
 }
 
-export default OurServices;
+export default Quote;

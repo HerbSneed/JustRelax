@@ -1,18 +1,15 @@
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Hero from "./components/Hero";
+import Landing from "./pages/Landing";
 
 
-import "./index.css";
+import "../src/App.css";
 
 function App() {
   return (
     <>
-      <Header />
-      <main className="content-container">
+      <main className="content-container bg-green-200">
         <Landing />
       </main>
-      <Footer />
+
     </>
   );
 }
