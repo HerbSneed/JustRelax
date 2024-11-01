@@ -10,9 +10,12 @@ export default {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-      background: '#EEDFC8',
-      primary: '#3A4B53',
-      accent: '#EDCA95'
+      primary: '#375657',
+      button: '#D49E7F',
+      gradient: '#7FB9D4',
+      header: '#8DD5D6',
+      click: '#1573E6'
+      
     },
     extend: {
       textShadow: {

@@ -2,12 +2,13 @@ import Hero from "../components/Hero";
 import BusinessInfo from "../components/BusinessInfo";
 import ChatBot from "../components/ChatBot";
 import ContactUs from "../components/ContactUs";
-import Discount from "../components/Discount";
 import OurServices from "../components/OurServices";
 import Quote from "../components/Quote";
 import Testimonials from "../components/Testimonials";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import MissionStatement from "../components/MissionStatement";
+import Benefits from "../components/Benefits";
 
 
 const Landing = () => {
@@ -16,11 +17,13 @@ const Landing = () => {
     <>
       <div>
         <Header />
-        <Discount />
         <Hero />
+        <MissionStatement />
+        <Quote />
+        <Benefits />
         <Testimonials />
         <OurServices />
-        <Quote />
+
         <BusinessInfo />
         <ContactUs />
         <Footer />

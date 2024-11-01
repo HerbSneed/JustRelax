@@ -14,14 +14,12 @@ const Header = () => {
 
   return (
     <>
-      <header
-        className="left-0 right-0 flex top-0 bg-background h-52 justify-between items-center"
-      >
+      <header id="header" className="left-0 right-0  top-0 bg-primary justify-between items-center ">
         <nav className="w-screen">
           <div className="flex flex-wrap items-center justify-between mx-auto">
             <HashLink to="/#home">
-              <h1 className="header text-black text-[35px] mt-1 md:text-[45px]  ml-5 lg:ml-10 drop-shadow-lg z-50 font-[blackword]">
-                Just Relax
+              <h1 className="header drop-shadow-lg ml-3 z-50 font-[blackword]">
+                JR
               </h1>
             </HashLink>
 
@@ -29,7 +27,7 @@ const Header = () => {
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               data-collapse-toggle="navbar-hamburger"
               type="button"
-              className="inline-flex z-50 mr-3  items-center justify-center w-10 h-10 text-sm focus:outline-none md:hidden"
+              className="inline-flex z-50  items-center justify-center  w-10 h-10 text-sm focus:outline-none md:hidden"
               aria-controls="navbar-hamburger"
               aria-expanded={isMenuOpen ? "true" : "false"}
             >
@@ -58,7 +56,7 @@ const Header = () => {
                   viewBox="0 0 17 14"
                 >
                   <path
-                    stroke="white"
+                    stroke="#D49E7F"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth="2"
