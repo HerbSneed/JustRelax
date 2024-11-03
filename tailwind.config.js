@@ -10,11 +10,14 @@ export default {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-      primary: '#375657',
-      button: '#D49E7F',
+      primary: '#33536D',
+      button: '#F2905F',
       gradient: '#7FB9D4',
       header: '#8DD5D6',
-      click: '#1573E6'
+      click: '#1573E6',
+      border: '#869691',
+      secondary:'#FAFAFA',
+      buttonFocus: '#FF8C00'
       
     },
     extend: {

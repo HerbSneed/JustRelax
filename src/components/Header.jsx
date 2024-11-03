@@ -14,7 +14,7 @@ const Header = () => {
 
   return (
     <>
-      <header id="header" className="left-0 right-0  top-0 bg-primary justify-between items-center ">
+      <header id="header" className="left-0 right-0 py-1 top-0 bg-primary justify-between items-center ">
         <nav className="w-screen">
           <div className="flex flex-wrap items-center justify-between mx-auto">
             <HashLink to="/#home">
@@ -56,7 +56,7 @@ const Header = () => {
                   viewBox="0 0 17 14"
                 >
                   <path
-                    stroke="#D49E7F"
+                    stroke="white"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth="2"
@@ -72,7 +72,7 @@ const Header = () => {
               } md:hidden w-full mt-2`}
               id="navbar-hamburger"
             >
-              <ul className="flex flex-col z-0 px-0 absolute top-0 py-20 w-full text-white font-semibold bg-opacity-50 h-screen bg-black">
+              <ul className="flex flex-col z-40 px-0 absolute top-0 py-20 w-full text-white font-semibold h-screen bg-black">
                 <li className="text-left pl-3 py-2 pr-3 lg:pr-6 w-full">
                   <HashLink
                     className="block text-left  pl-3 hover:text-blue-500"

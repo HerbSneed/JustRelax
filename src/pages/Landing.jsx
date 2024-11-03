@@ -1,5 +1,5 @@
 import Hero from "../components/Hero";
-import BusinessInfo from "../components/BusinessInfo";
+import BusinessInfo from "../components/Image";
 import ChatBot from "../components/ChatBot";
 import ContactUs from "../components/ContactUs";
 import OurServices from "../components/OurServices";
@@ -19,7 +19,7 @@ const Landing = () => {
         <Header />
         <Hero />
         <MissionStatement />
-        <Quote />
+        {/* <Quote /> */}
         <Benefits />
         <Testimonials />
         <OurServices />
