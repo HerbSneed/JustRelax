@@ -1,0 +1,62 @@
+#header h1 {
+  font-family: 'nunito_ital';
+  font-size: 2em;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  letter-spacing: -8.5px;
+  line-height: 10px;
+}
+
+#header li {
+  display: inline;
+  margin-right: 10px;
+  line-height: 10px;
+}
+
+/* Small devices (640px and up) */
+@media (min-width: 640px) {
+  /* Your styles for small devices */
+
+}
+
+/* Medium devices (768px and up) */
+@media (min-width: 768px) {
+  /* Your styles for medium devices */
+}
+
+/* Large devices (1024px and up) */
+@media (min-width: 1024px) {
+  /* Your styles for large devices */
+}
+
+/* Extra large devices (1280px and up) */
+@media (min-width: 1280px) {
+  /* Your styles for extra large devices */
+}
+
+/* 2XL devices (1536px and up) */
+@media (min-width: 1536px) {
+  /* Your styles for 2XL devices */
+}
+
+
+/* Custom landscape breakpoints from Tailwind config */
+@media (min-width: 640px) and (orientation: landscape) {
+  /* Styles for small landscape */
+}
+
+@media (min-width: 768px) and (orientation: landscape) {
+  /* Styles for medium landscape */
+    /* #home-hero {
+    margin-top: 95px;
+  } */
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+  /* Styles for large landscape */
+
+}
+
+@media (min-width: 1280px) and (orientation: landscape) {
+  /* Styles for extra large landscape */
+}

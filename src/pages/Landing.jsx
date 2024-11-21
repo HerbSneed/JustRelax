@@ -9,9 +9,11 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import MissionStatement from "../components/MissionStatement";
 import Benefits from "../components/Benefits";
+import { useScrollToTop } from "../hooks/hooks.jsx";
 
 
 const Landing = () => {
+  useScrollToTop();
 
   return (
     <>

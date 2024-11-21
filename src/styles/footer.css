@@ -1,0 +1,30 @@
+#footer h1 {
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+}
+
+#footer p {
+    font-size: .6rem;
+    color: black;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#footer span {
+    font-size: .6rem;
+    color: black;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#footer a {
+    font-size: .6rem;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}

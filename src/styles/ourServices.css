@@ -1,0 +1,37 @@
+#services h1 {
+  font-family: playfair;
+  font-weight: 600;
+  font-size: 3.5rem;
+  color: white;
+  text-shadow: .5px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+#services h2 {
+  font-family: playfair;
+  font-weight: 300;
+  font-size: 2.5rem;
+  line-height: 40px;
+  color: white;
+  text-shadow: .5px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+#services h3 {
+  font-family: nunito;
+  font-size: 1.50rem;
+  line-height: 30px;
+  color: white;
+  text-shadow: .5px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+#services p {
+  font-family: nunito;
+  font-size: 1rem;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: white;
+  text-shadow: .5px 3px 3px rgba(0, 0, 0, 0.5);
+} 
+
+#services li div {
+  box-shadow: .5px 3px 3px rgba(0, 0, 0, .4);
+}

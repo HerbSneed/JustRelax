@@ -9,13 +9,16 @@ import './tailwind.css';
 
 import App from './App';
 import Landing from "./pages/Landing";
+import About from "./pages/About";
 
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/">
       <Route index element={<Landing />} />
+      <Route path="/about" element={<About />} />
     </Route>
+
   )
 );
 

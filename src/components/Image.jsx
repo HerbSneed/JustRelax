@@ -1,4 +1,5 @@
 import cuMassage from "../assets/images/cuMassage.webp";
+import '../styles/image.css';
 
 function Image() {
   return (

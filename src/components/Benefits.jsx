@@ -8,6 +8,7 @@ import mood from "../assets/icons/mood.svg";
 import posture from "../assets/icons/posture.svg";
 import sleep from "../assets/icons/sleep.svg";
 import stress from "../assets/icons/stress.svg";  
+import '../styles/benefits.css';
 
 
 function Benefits() {
@@ -19,15 +20,15 @@ function Benefits() {
         alt="Ocean Bliss Background"
       />
       <div className="relative z-10 px-8">
-        <ul className="flex flex-col items-center justify-start gap-y-8">
-          <h1 className="text-center text-white mb-5">
+        <ul className="flex flex-col text-center items-center gap-y-8">
+          <h1 className=" mb-5">
             Benefits of Massage Therapy
           </h1>
 
           <li className="flex flex-col items-center gap-y-1">
             <img className="w-20 h-20" src={stress} />
             <h2 className="text-white">Stress Relief</h2>
-            <p className="text-center text-white">
+            <p className="">
               Reduces stress and anxiety, promoting relaxation and a sense of
               well-being.
             </p>
@@ -36,7 +37,7 @@ function Benefits() {
           <li className="flex flex-col items-center gap-y-1">
             <img className="w-20 h-20" src={circulation} />
             <h2 className="text-white">Improved Circulation</h2>
-            <p className="text-center text-white">
+            <p className="">
               Enhances blood flow, boosting oxygen and nutrient delivery to
               tissues.
             </p>
@@ -44,7 +45,7 @@ function Benefits() {
           <li className="flex flex-col items-center gap-y-1">
             <img className="w-20 h-20" src={flexible} />
             <h2 className="text-white">Increased Flexibility</h2>
-            <p className="text-center text-white">
+            <p className="">
               Increases flexibility and range of motion in joints, helping to
               prevent injuries.
             </p>
@@ -52,14 +53,14 @@ function Benefits() {
           <li className="flex flex-col items-center gap-y-1">
             <img className="w-20 h-20" src={sleep} />
             <h2 className="text-white">Enhanced Sleep Quality</h2>
-            <p className="text-center text-white">
+            <p className="">
               Promotes deeper sleep by relaxing the body and mind.
             </p>
           </li>
           <li className="flex flex-col items-center gap-y-1">
             <img className="w-20 h-20" src={mood} />
             <h2 className="text-white">Mood Improvement</h2>
-            <p className="text-center text-white">
+            <p className="">
               Stimulates the release of endorphins and serotonin, improving
               mood.
             </p>
@@ -67,15 +68,15 @@ function Benefits() {
           <li className="flex flex-col items-center gap-y-1">
             <img className="w-20 h-20" src={immune} />
             <h2 className="text-white">Immune System Boost</h2>
-            <p className="text-center text-white">
+            <p className="">
               Enhances immune response, helping the body fight off illnesses.
             </p>
           </li>
 
           <li className="flex flex-col items-center gap-y-1">
             <img className="w-20 h-20" src={posture} />
-            <h2 className="text-white">Postural Improvement</h2>
-            <p className="text-center text-white">
+            <h2 className="text-white text-center">Postural Improvement</h2>
+            <p className="">
               Helps correct muscle imbalances and improves posture.
             </p>
           </li>
@@ -84,7 +85,7 @@ function Benefits() {
             <img className="w-20 h-20" src={energy} />
 
             <h2 className="text-white">Increased Energy</h2>
-            <p className="text-center text-white">
+            <p className="">
               Leaves you feeling more energized and revitalized.
             </p>
           </li>

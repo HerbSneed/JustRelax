@@ -1,0 +1,15 @@
+#missionStatement h1 {
+  font-family: playfair;
+  font-size: 2.5rem;
+  color: white;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  line-height: 38px;
+}
+
+#missionStatement p {
+  font-family: nunito;
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  line-height: 30px;
+}

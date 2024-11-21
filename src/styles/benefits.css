@@ -1,0 +1,27 @@
+#benefits h1 {
+  font-family: playfair;
+  font-size: 4rem;
+  color: #507594;
+  text-shadow: .5px .5px .5px rgba(255, 255, 255, 0.5);
+  line-height: 50px;
+  font-weight: 600;
+}
+
+#benefits li h2 {
+  font-size: 2em;
+  color: #ffffff;
+  text-shadow: .5px .5px .5px rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+  line-height: 35px;
+}
+
+#benefits li p {
+  font-family: nunito;
+  font-size: 1.2rem;
+  color: white;
+  text-shadow: .5px .5px .5px rgba(0, 0, 0, 0.5);
+}
+
+#benefits img {
+
+}
