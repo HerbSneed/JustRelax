@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { HashLink } from "react-router-hash-link";
 import { useNavigate } from "react-router-dom";
 import "../styles/header.css";
+import HeroBook from "../components/HeroBook"
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -165,7 +166,7 @@ const Header = () => {
                 <a
                   className="block text-left pl-3 hover:text-blue-500"
                   to="/about"
-                  onClick={() => handleNavigation("/#home")}
+                  onClick={() => handleNavigation("/about")}
                 >
                   About Me
                 </a>

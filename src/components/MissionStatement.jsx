@@ -1,6 +1,9 @@
 import '../styles/MissionStatement.css';
 import oceanWaves from '../assets/images/oceanWave.jpg';
 
+
+import { motion } from "framer-motion";
+
 function MissionStatement() {
   return (
     <>

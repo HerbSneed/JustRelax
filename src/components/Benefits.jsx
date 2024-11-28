@@ -1,5 +1,4 @@
 import oceanBliss from "../assets/images/oceanBliss.webp";
-
 import energy from "../assets/icons/energy.svg";
 import circulation from "../assets/icons/circulation.svg";
 import flexible from "../assets/icons/flexible.svg";
@@ -10,6 +9,7 @@ import sleep from "../assets/icons/sleep.svg";
 import stress from "../assets/icons/stress.svg";  
 import '../styles/benefits.css';
 
+import { motion } from "framer-motion";
 
 function Benefits() {
   return (

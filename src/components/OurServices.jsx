@@ -3,6 +3,8 @@ import '../styles/OurServices.css';
 import oceanWaves from "../assets/images/oceanWave.jpg";
 import { services } from "../hooks/hooks"; 
 
+import { motion } from "framer-motion";
+
 function OurServices() {
   return (
     <>

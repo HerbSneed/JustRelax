@@ -1,19 +1,19 @@
 #hero h1 {
   font-family: playfair;
-  font-size: 4.5rem;
-  font-weight: 900;
-  color: white;
-  text-shadow: .5px .5px .5px rgba(0, 0, 0, 0.8);
-  line-height: 40px;
+  font-size: 3.8rem;
+  font-weight: 350;
+  color: #34536E;
+  text-shadow: .5px .5px .5px rgba(255, 255, 255, 0.1);
+  line-height: 65px;
 }
 
 #hero h2 {
-  font-family: playfair;
-  font-size: 2.5rem;
-  font-weight: 900;
-  color: white;
+  font-family: nunito;
+  font-size: 1.3rem;
+  font-weight: 200;
+  color: #6E5734;
   text-shadow: .5px .5px .5px rgba(0, 0, 0, 0.8);
-  line-height: 40px;
+  line-height: 30px;
 }
 
 #hero h3 {
@@ -22,6 +22,13 @@
   color: white;
   text-shadow: .5px .5px .5px rgba(0, 0, 0, 0.8);
   line-height: 30px;
+}
+
+#hero p {
+  font-family: playfair;
+  font-size: 1rem;
+  color: ;
+  line-height: 25px;
 }
 
 #hero button {

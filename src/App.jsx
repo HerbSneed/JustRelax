@@ -1,6 +1,5 @@
 import Landing from "./pages/Landing";
 
-
 import "../src/App.css";
 
 function App() {
